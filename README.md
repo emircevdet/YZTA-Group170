@@ -8,7 +8,7 @@
 | Yaren Doğan          | Developer        |
 | Kaan Parmak          | Product Owner    |
 | Emir Cevdet Ünsal    | Developer        |
-| Barış                | Developer        |
+| Barış Ozan           | Developer        |
 
 
 ---
