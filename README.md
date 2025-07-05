@@ -8,8 +8,8 @@
 | İsim                 | Rol              |
 |----------------------|------------------|
 | Şevval Battal        | Scrum Master     |
-| Yaren Doğan          | Developer        |
-| Kaan Parmak          | Product Owner    |
+| Yaren Doğan          | Product Owner    |
+| Kaan Parmak          | Developer        |
 | Emir Cevdet Ünsal    | Developer        |
 | Barış Ozan           | Developer        |
 
