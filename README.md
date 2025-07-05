@@ -1,6 +1,6 @@
 # EhliyetGO
 ## Logo
-<img width="680" alt="image" src="https://github.com/user-attachments/assets/16d835f5-debd-4885-bef0-10a3759ca36f" />
+<img width="680" alt="image" src="[https://github.com/user-attachments/assets/16d835f5-debd-4885-bef0-10a3759ca36f](https://github.com/emircevdet/YZTA-Group170/blob/main/Logo.png)" />
 
 ## Takım
 
