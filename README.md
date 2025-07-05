@@ -78,15 +78,17 @@ Sprint 1 kapsamında öncelikli olarak kullanıcı kayıt/giriş işlemleri, sev
 
 Toplam proje backlog’u 150 puan olarak planlandı. İlk sprint’te hedeflenen ilerleme oranı %40-50 arası belirlendi. Bu doğrultuda Sprint 1’e 66 puanlık iş yükü alındı. Backlog’daki işler puanlarına göre sıralandı ve sprint kapasitesi aşılmadan uygun hikâyeler seçildi. Hikâye bağı 66 puanı geçmemek üzere dengeli tutuldu.
 
-##Daily Scrum
+## Daily Scrum
 Ekip üyeleri ile haftada 2 kez toplantı yapılarak ilerlemeler kontrol edildi. Her üye kendi görev ilerlemesini her gün Trello üzerinden düzenli olarak güncelledi.
 
-##Sprint Board Updates
+## Sprint Board Updates
 
 <img width="1424" alt="image" src="https://github.com/user-attachments/assets/b46820db-c87d-4b6c-aec8-008a0aa9f0d0" />
 
 
-##Sprint Review
+
+
+## Sprint Review
 SQLite ile veritabanı yapısı tamamlandı.
 
 Kullanıcı kayıt & giriş işlemleri çalışır durumda. Şifre hash’leme ve doğrulama mekanizması başarıyla test edildi.
@@ -97,7 +99,9 @@ Seviye belirleme testi hem frontend hem backend tarafında başarılı çalış�
 
 Admin paneli, kullanıcı profil düzenleme ve istatistik ekranları Sprint 2’ye devredildi.
 
-##Sprint Retrospective
+
+
+## Sprint Retrospective
 Görevlerin net şekilde tanımlanması ekip verimliliğini artırdı.
 
 UI/UX geliştirmeleri beklenenden fazla zaman aldı, bu durum sonraki sprint’te dikkate alınacak.
