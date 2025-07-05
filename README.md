@@ -59,14 +59,17 @@ EhliyetGO kullanıcıları, uygulamaya kayıt olarak kişisel ilerlemelerini tak
 
 ## Kullanılan Teknolojiler
 
-| Katman             | Teknoloji / Kütüphane                          | Açıklama                                                    |
-|--------------------|------------------------------------------------|-------------------------------------------------------------|
-| Arayüz (GUI)       | Tkinter/PyQt5                                  | Masaüstü kullanıcı arayüzü – butonlar, formlar, test ekranı |
-| AI Entegrasyonu    | Google Gemini API                              | Konu anlatımı ve soru açıklamaları için yapay zeka servisi  |
-| Veritabanı         | SQLite/TinyDB                                  | Kullanıcı verisi, sorular, puanlar vs. için lokal veritabanı|
-| HTTP İstekleri     | requests/httpx                                 | Yapay zeka API'lerine bağlanmak için                        |
-| Veri Formatı       | JSON                                           | Soru havuzu ve kullanıcı ayarları için hafif veri yapısı    |
-| Paketleme          | PyInstaller/cx_Freeze                          | Uygulamayı .exe/.app gibi çalıştırılabilir hale getirme     |
-| Görseller          | .png / .ico / .jpg                             | Uygulama ikonları ve UI görselleri                          |
-| Test / Debugging   | unittest/logging                               | Birim testleri ve hata loglama işlemleri                    |
 
+| Katman               | Teknoloji / Kütüphane                | Açıklama                                                        |
+| -------------------- | ------------------------------------ | --------------------------------------------------------------- |
+| **Frontend (UI)**    | HTML5, CSS3, JavaScript, Bootstrap 5 | Web arayüzü – responsive formlar, butonlar, kullanıcı panelleri |
+| **Stil (Styling)**   | Bootstrap 5 + Özel CSS               | Modern görünüm, gradientler ve kullanıcı dostu tasarım          |
+| **Backend**          | Python Flask                         | API servisleri, kullanıcı işlemleri ve yapay zeka bağlantısı    |
+| **Authentication**   | Flask-Login                          | Kullanıcı oturum yönetimi (login/logout işlemleri)              |
+| **Veritabanı**       | SQLite                               | Kullanıcılar, sorular, geçmiş veriler için lokal veritabanı     |
+| **AI Entegrasyonu**  | Google Gemini API                    | Yapay zeka ile konu anlatımı ve açıklamalı çözümler             |
+| **HTTP İstekleri**   | `requests` veya `httpx`              | Gemini API ile haberleşme                                       |
+| **Veri Formatı**     | JSON                                 | Kullanıcı verileri, ayarlar ve soru içerikleri                  |
+| **Test / Debugging** | `unittest`, `logging`                | Kod kararlılığı için testler ve hata loglama sistemi            |
+| **Deploy / Server**  | Uvicorn                              | Geliştirme ve üretim sunucusu çalıştırma                        |
+| **Görseller**        | .png / .svg / .ico                   | UI ikonları, logo ve tasarım öğeleri                            |
