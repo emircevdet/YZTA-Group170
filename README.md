@@ -60,16 +60,12 @@ EhliyetGO kullanıcıları, uygulamaya kayıt olarak kişisel ilerlemelerini tak
 ## Kullanılan Teknolojiler
 
 
-| Katman               | Teknoloji / Kütüphane                | Açıklama                                                        |
-| -------------------- | ------------------------------------ | --------------------------------------------------------------- |
-| **Frontend (UI)**    | HTML5, CSS3, JavaScript, Bootstrap 5 | Web arayüzü – responsive formlar, butonlar, kullanıcı panelleri |
-| **Stil (Styling)**   | Bootstrap 5 + Özel CSS               | Modern görünüm, gradientler ve kullanıcı dostu tasarım          |
-| **Backend**          | Python Flask                         | API servisleri, kullanıcı işlemleri ve yapay zeka bağlantısı    |
-| **Authentication**   | Flask-Login                          | Kullanıcı oturum yönetimi (login/logout işlemleri)              |
-| **Veritabanı**       | SQLite                               | Kullanıcılar, sorular, geçmiş veriler için lokal veritabanı     |
-| **AI Entegrasyonu**  | Google Gemini API                    | Yapay zeka ile konu anlatımı ve açıklamalı çözümler             |
-| **HTTP İstekleri**   | `requests` veya `httpx`              | Gemini API ile haberleşme                                       |
-| **Veri Formatı**     | JSON                                 | Kullanıcı verileri, ayarlar ve soru içerikleri                  |
-| **Test / Debugging** | `unittest`, `logging`                | Kod kararlılığı için testler ve hata loglama sistemi            |
-| **Deploy / Server**  | Uvicorn                              | Geliştirme ve üretim sunucusu çalıştırma                        |
-| **Görseller**        | .png / .svg / .ico                   | UI ikonları, logo ve tasarım öğeleri                            |
+| Katman                | Teknoloji / Kütüphane             | Açıklama                                                                 |
+| --------------------- | --------------------------------- | ------------------------------------------------------------------------ |
+| Arayüz (GUI)          | Tkinter                           | Masaüstü arayüzü – form ekranları, butonlar ve layout düzenlemeleri      |
+| Veritabanı            | SQLite                            | Kullanıcı verileri ve test kayıtlarının saklandığı yerel veritabanı      |
+| Şifreleme             | hashlib                           | Kullanıcı şifrelerinin güvenli şekilde hash’lenmesi için                 |
+| Kimlik Doğrulama      | JWT (Python'da `jwt` kütüphanesi) | Kullanıcının kimliğini doğrulamak için token bazlı sistem                |
+| API Sunucusu          | FastAPI                           | Backend API’lerinin geliştirilmesinde kullanılan modern Python framework |
+| HTTP Sunucusu         | Uvicorn                           | FastAPI uygulamasını çalıştırmak için ASGI uyumlu sunucu                 |
+| Veri Formatı          | JSON                              | Kullanıcı kayıtları ve token işlemleri için hafif veri saklama formatı   |
