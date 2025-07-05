@@ -1,6 +1,7 @@
 # EhliyetGO
+
 ## Logo
-<img width="680" alt="image" src="[https://github.com/user-attachments/assets/16d835f5-debd-4885-bef0-10a3759ca36f](https://github.com/emircevdet/YZTA-Group170/blob/main/Logo.png)" />
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Logo.png?raw=true" alt="EhliyetGO Logo" width="300"/>
 
 ## Takım
 
@@ -11,7 +12,6 @@
 | Kaan Parmak          | Product Owner    |
 | Emir Cevdet Ünsal    | Developer        |
 | Barış Ozan           | Developer        |
-
 
 ---
 
@@ -59,10 +59,9 @@ EhliyetGO kullanıcıları, uygulamaya kayıt olarak kişisel ilerlemelerini tak
 
 ## Kullanılan Teknolojiler
 
-
 | Katman                | Teknoloji / Kütüphane             | Açıklama                                                                 |
 | --------------------- | --------------------------------- | ------------------------------------------------------------------------ |
-| Arayüz (GUI)          | Tkinter                           | Masaüstü arayüzü – form ekranları, butonlar ve layout düzenlemeleri      |
+| Arayüz (GUI)          | Tkinter                           | Masaüstü arayüz – form ekranları, butonlar ve layout düzenlemeleri      |
 | Veritabanı            | SQLite                            | Kullanıcı verileri ve test kayıtlarının saklandığı yerel veritabanı      |
 | Şifreleme             | hashlib                           | Kullanıcı şifrelerinin güvenli şekilde hash’lenmesi için                 |
 | Kimlik Doğrulama      | JWT (Python'da `jwt` kütüphanesi) | Kullanıcının kimliğini doğrulamak için token bazlı sistem                |
@@ -70,43 +69,55 @@ EhliyetGO kullanıcıları, uygulamaya kayıt olarak kişisel ilerlemelerini tak
 | HTTP Sunucusu         | Uvicorn                           | FastAPI uygulamasını çalıştırmak için ASGI uyumlu sunucu                 |
 | Veri Formatı          | JSON                              | Kullanıcı kayıtları ve token işlemleri için hafif veri saklama formatı   |
 
+---
 
 # Sprint 1 
 
-##Sprint Notları
+## Sprint Notları
+
 Sprint 1 kapsamında öncelikli olarak kullanıcı kayıt/giriş işlemleri, seviye belirleme testi ve soru çözüm arayüzü gibi temel işlevler ele alındı. User Story’ler, Product Backlog’a tanımlandı ve her bir hikâye kendi içerisinde yapılacak iş task'lere bölündü. Hikaye detayları, backlog item’lara tıklanarak görüntülenebilir şekilde hazırlandı.
 
 Toplam proje backlog’u 150 puan olarak planlandı. İlk sprint’te hedeflenen ilerleme oranı %40-50 arası belirlendi. Bu doğrultuda Sprint 1’e 66 puanlık iş yükü alındı. Backlog’daki işler puanlarına göre sıralandı ve sprint kapasitesi aşılmadan uygun hikâyeler seçildi. Hikâye bağı 66 puanı geçmemek üzere dengeli tutuldu.
 
+---
+
 ## Daily Scrum
+
 Ekip üyeleri ile haftada 2 kez toplantı yapılarak ilerlemeler kontrol edildi. Her üye kendi görev ilerlemesini her gün Trello üzerinden düzenli olarak güncelledi.
+
+---
 
 ## Sprint Board Updates
 
-<img width="1424" alt="image" src="https://github.com/user-attachments/assets/b46820db-c87d-4b6c-aec8-008a0aa9f0d0" />
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Trello%20ss.jpeg?raw=true" alt="Sprint Board" width="800"/>
 
-
-
+---
 
 ## Sprint Review
-SQLite ile veritabanı yapısı tamamlandı.
 
-Kullanıcı kayıt & giriş işlemleri çalışır durumda. Şifre hash’leme ve doğrulama mekanizması başarıyla test edildi.
+- SQLite ile veritabanı yapısı tamamlandı.  
+- Kullanıcı kayıt & giriş işlemleri çalışır durumda. Şifre hash’leme ve doğrulama mekanizması başarıyla test edildi.  
+- Konu listesi ekranı ve konu bazlı test çözüm ekranı tamamlandı.  
+- Seviye belirleme testi hem frontend hem backend tarafında başarılı çalışıyor. Skor veritabanına kaydediliyor.  
+- Admin paneli, kullanıcı profil düzenleme ve istatistik ekranları Sprint 2’ye devredildi.
 
-Konu listesi ekranı ve konu bazlı test çözüm ekranı tamamlandı.
-
-Seviye belirleme testi hem frontend hem backend tarafında başarılı çalışıyor. Skor veritabanına kaydediliyor.
-
-Admin paneli, kullanıcı profil düzenleme ve istatistik ekranları Sprint 2’ye devredildi.
-
-
+---
 
 ## Sprint Retrospective
-Görevlerin net şekilde tanımlanması ekip verimliliğini artırdı.
 
-UI/UX geliştirmeleri beklenenden fazla zaman aldı, bu durum sonraki sprint’te dikkate alınacak.
+- Görevlerin net şekilde tanımlanması ekip verimliliğini artırdı.  
+- UI/UX geliştirmeleri beklenenden fazla zaman aldı. Bu durum sonraki sprint’te dikkate alınacak.  
+- Task’lerin daha küçük ve ölçülebilir hale getirilmesinin faydalı olacağına karar verildi.  
 
-Task’lerin daha küçük ve ölçülebilir hale getirilmesinin faydalı olacağına karar verildi.
+---
 
+## Proje Görselleri
 
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-06%20002839.png?raw=true" alt="Giriş Sayfası" width="700"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-06%20002734.png?raw=true" alt="Konu Listesi" width="700"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-06%20002724.png?raw=true" alt="Test Sayfası" width="700"/>
+
+---
 
