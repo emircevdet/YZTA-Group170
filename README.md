@@ -57,8 +57,6 @@ EhliyetGO kullanıcıları, uygulamaya kayıt olarak kişisel ilerlemelerini tak
 
 ## Kullanılan Teknolojiler
 
-## Kullanılan Teknolojiler
-
 | Katman             | Teknoloji / Kütüphane                          | Açıklama                                                    |
 |--------------------|------------------------------------------------|-------------------------------------------------------------|
 | Arayüz (GUI)       | Tkinter/PyQt5                                  | Masaüstü kullanıcı arayüzü – butonlar, formlar, test ekranı |
