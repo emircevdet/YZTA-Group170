@@ -6,9 +6,9 @@
 |----------------------|------------------|
 | Şevval Battal        | Scrum Master     |
 | Yaren Doğan          | Developer        |
-| Kaan Parmak          | Developer        |
+| Kaan Parmak          | Product Owner    |
 | Emir Cevdet Ünsal    | Developer        |
-| Barış                | Product Owner    |
+| Barış                | Developer        |
 
 
 ---
