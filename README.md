@@ -22,7 +22,7 @@ Konu anlatımı, test çözümü, sınav simülasyonu ve yapay zeka destekli ger
 
 ## Amaç
 
-Bu projenin amacı, ehliyet teorik sınavına hazırlanan bireylerin öğrenme sürecini daha kolay, daha etkili ve daha kişisel hale getirmektir.
+Ehliyet teorik sınavına hazırlanan bireylerin öğrenme sürecini daha kolay, daha etkili ve daha kişisel hale getirmektir.
 
 - Klasik ezber yöntemlerini modernleştirir  
 - Kişiye özel çalışma planı ve yapay zeka açıklamaları sunar  
@@ -35,7 +35,6 @@ Bu projenin amacı, ehliyet teorik sınavına hazırlanan bireylerin öğrenme s
 
 - İlk kez ehliyet alacak bireyler (18+)
 - Yoğun çalışan yetişkinler
-- Mobil öğrenmeye alışık kullanıcılar
 - Sürücü kursları (B2B modeli için)
 
 ---
@@ -45,15 +44,21 @@ Bu projenin amacı, ehliyet teorik sınavına hazırlanan bireylerin öğrenme s
 - Gemini destekli konu anlatımı ve soru çözüm açıklamaları  
 - Seviye tespit testi ve akıllı çalışma planı  
 - Gerçek sınav formatında deneme sınavları  
-- Günlük görevler, rozetler ve geri sayım sistemi  
-- Zayıf konulara özel tekrar önerileri  
-- Admin paneliyle içerik yönetimi  
+- Günlük görevler ve geri sayım sistemi  
 
 ---
 
-## User Stories
+## Kullanıcı Hikayesi
 
-EhliyetGO kullanıcıları, uygulamaya kayıt olarak kişisel ilerlemelerini takip etmek ve ilk kullanımda sunulan seviye belirleme testiyle kendi öğrenme yolculuklarını başlatmak ister. Yapay zeka destekli konu anlatımı sayesinde trafik, motor, ilk yardım gibi sınav konularını anlaşılır biçimde dinleyip, gerektiğinde tekrar edebilmek onlar için kritik önemdedir. Kullanıcılar sınav formatında testler çözerek bilgilerini ölçmek, her soru için yapay zekadan açıklayıcı geri bildirim alarak eksik konularını hızlıca fark etmek isterler. Sistem, geçmiş yanıtları analiz ederek kişiye özel çalışma planı ve tekrar önerileri sunmalı, günlük görevler ve başarı rozetleriyle kullanıcıyı düzenli çalışmaya teşvik etmelidir. Zaman yönetimi açısından kullanıcılar için sınav geri sayım takvimi ve gerçek sınav simülasyonları ile performanslarını ölçebilecekleri bir yapı önemlidir. Uygulamanın temel amacı; her kullanıcının öğrenme sürecini kişiselleştirilmiş, etkileşimli ve sürdürülebilir hale getirmektir.
+kullanıcının kayıt olmasıyla başlar. Kayıt işleminin ardından, ilk kullanımda seviye belirleme testi sunularak bireyin mevcut bilgi düzeyi tespit edilir. Bu sayede kullanıcı, seviyesine uygun içeriklerle yönlendirilir.
+
+Süreç boyunca trafik, motor ve ilk yardım gibi sınav konuları, yapay zeka destekli anlatımlarla sadeleştirilmiş bir biçimde sunulur. Konu anlatımlarının ardından, gerçek sınav formatına uygun çoktan seçmeli testlerle pekiştirme yapılır. Her soru sonrası, doğru ve yanlış seçenekler yapay zeka tarafından detaylı şekilde açıklanır. Bu açıklamalar, kullanıcının eksik bilgilerini tespit edip daha odaklı çalışmasını mümkün kılar. Kullanıcı dilerse direkt AI ile sohbet alanına geçip, sorularını sohbet üzerine sorabilir, konu anlatımı talep edebilir.
+
+Kullanıcının sistem üzerindeki tüm etkileşimleri kayıt altına alınır ve analiz edilir. Bu veriler doğrultusunda, kişiselleştirilmiş çalışma planları, tekrar önerileri ve zayıf konu başlıkları otomatik olarak oluşturulur. Günlük görevler ve başarı rozetleri ile öğrenme süreci takip edilirken aynı zamanda motivasyon unsurları da entegre edilir.
+
+Geri sayım takvimi, kullanıcıya sınava ne kadar süre kaldığını hatırlatır. Uygulama içerisinde yer alan sınav simülasyonu modülü, süreli ve rastgele sorularla gerçek sınav deneyimini önceden yaşatır. Bu modül, sınav stresi ve zaman yönetimi konularında deneyim kazanmayı destekler.
+
+Tüm sistem, bireyin öğrenme yolculuğunu ölçülebilir, kişiye özel ve sürdürülebilir bir yapıya dönüştürerek teorik sınava eksiksiz şekilde hazırlanmasını hedefler.
 
 ---
 
@@ -66,7 +71,6 @@ EhliyetGO kullanıcıları, uygulamaya kayıt olarak kişisel ilerlemelerini tak
 | Şifreleme             | hashlib                           | Kullanıcı şifrelerinin güvenli şekilde hash’lenmesi için                 |
 | Kimlik Doğrulama      | JWT (Python'da `jwt` kütüphanesi) | Kullanıcının kimliğini doğrulamak için token bazlı sistem                |
 | API Sunucusu          | FastAPI                           | Backend API’lerinin geliştirilmesinde kullanılan modern Python framework |
-| HTTP Sunucusu         | Uvicorn                           | FastAPI uygulamasını çalıştırmak için ASGI uyumlu sunucu                 |
 | Veri Formatı          | JSON                              | Kullanıcı kayıtları ve token işlemleri için hafif veri saklama formatı   |
 
 ---
@@ -130,4 +134,7 @@ Ekip üyeleri ile haftada 2 kez toplantı yapılarak ilerlemeler kontrol edildi.
 <img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-06%20002519.png?raw=true" alt="Test Sayfası" width="300"/>
 
 ---
+# Sprint 2
+
+## Sprint Notları
 
