@@ -129,8 +129,6 @@ Ekip üyeleri ile haftada 2 kez toplantı yapılarak ilerlemeler kontrol edildi.
 
 <img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-06%20002528.png?raw=true" alt="Test Sayfası" width="300"/>
 
-<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-06%20002519.png?raw=true" alt="Test Sayfası" width="300"/>
-
 
 ---
 
