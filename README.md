@@ -1,6 +1,5 @@
 # DriveMate
 
-## Logo
 <img src="https://github.com/emircevdet/YZTA-Group170/blob/main/LogoDriveMate.png" width="400"/>
 
 ## Takım
