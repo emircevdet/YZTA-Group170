@@ -1,4 +1,4 @@
-# EhliyetGO
+# DriveMate
 
 ## Logo
 <img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Logo.png?raw=true" alt="EhliyetGO Logo" width="500"/>
@@ -25,8 +25,7 @@ Konu anlatımı, test çözümü, sınav simülasyonu ve yapay zeka destekli ger
 Ehliyet teorik sınavına hazırlanan bireylerin öğrenme sürecini daha kolay, daha etkili ve daha kişisel hale getirmektir.
 
 - Klasik ezber yöntemlerini modernleştirir  
-- Kişiye özel çalışma planı ve yapay zeka açıklamaları sunar  
-- Kullanıcının eksik konularını analiz ederek hedefli tekrar sağlar  
+- Kişiye özel yapay zeka açıklamaları sunar   
 - Sınav stresine karşı gerçek sınav formatında denemeler yapar  
 
 ---
@@ -50,15 +49,15 @@ Ehliyet teorik sınavına hazırlanan bireylerin öğrenme sürecini daha kolay,
 
 ## Kullanıcı Hikayesi
 
-kullanıcının kayıt olmasıyla başlar. Kayıt işleminin ardından, ilk kullanımda seviye belirleme testi sunularak bireyin mevcut bilgi düzeyi tespit edilir. Bu sayede kullanıcı, seviyesine uygun içeriklerle yönlendirilir.
+Kullanıcı yolculuğu, uygulamaya kayıt olarak başlar. Kayıt işleminin ardından, ilk kullanımda sunulan yapay zeka destekli seviye belirleme testi sayesinde kullanıcının mevcut bilgi düzeyi analiz edilir.
 
-Süreç boyunca trafik, motor ve ilk yardım gibi sınav konuları, yapay zeka destekli anlatımlarla sadeleştirilmiş bir biçimde sunulur. Konu anlatımlarının ardından, gerçek sınav formatına uygun çoktan seçmeli testlerle pekiştirme yapılır. Her soru sonrası, doğru ve yanlış seçenekler yapay zeka tarafından detaylı şekilde açıklanır. Bu açıklamalar, kullanıcının eksik bilgilerini tespit edip daha odaklı çalışmasını mümkün kılar. Kullanıcı dilerse direkt AI ile sohbet alanına geçip, sorularını sohbet üzerine sorabilir, konu anlatımı talep edebilir.
+Eğitim süreci boyunca trafik, motor ve ilk yardım gibi sınav konuları; yapay zeka tarafından sadeleştirilmiş ve anlaşılır biçimde sunulur. Her konu anlatımının ardından, gerçek sınav formatına uygun çoktan seçmeli testlerle bilgiler pekiştirilir. Dileyen kullanıcılar, doğrudan yapay zeka ile sohbet ekranına geçerek merak ettikleri konuları sorabilir, anında konu anlatımı talep edebilir.
 
-Kullanıcının sistem üzerindeki tüm etkileşimleri kayıt altına alınır ve analiz edilir. Bu veriler doğrultusunda, kişiselleştirilmiş çalışma planları, tekrar önerileri ve zayıf konu başlıkları otomatik olarak oluşturulur. Günlük görevler ve başarı rozetleri ile öğrenme süreci takip edilirken aynı zamanda motivasyon unsurları da entegre edilir.
+Günlük görevlerle öğrenme süreci düzenli olarak desteklenir ve kullanıcı motivasyonunu artırmak için çeşitli ödül ve hatırlatıcı sistemler entegre edilmiştir. Sınava kalan süreyi gösteren geri sayım takvimi, süreci planlamada önemli bir rehber görevi görür.
 
-Geri sayım takvimi, kullanıcıya sınava ne kadar süre kaldığını hatırlatır. Uygulama içerisinde yer alan sınav simülasyonu modülü, süreli ve rastgele sorularla gerçek sınav deneyimini önceden yaşatır. Bu modül, sınav stresi ve zaman yönetimi konularında deneyim kazanmayı destekler.
+Uygulamada yer alan “Sınav Simülasyonu” modu, süreli ve rastgele sorularla gerçek sınav atmosferini önceden yaşatarak; kullanıcıya sınav stresiyle başa çıkma ve zaman yönetimi konusunda pratik kazandırır.
 
-Tüm sistem, bireyin öğrenme yolculuğunu ölçülebilir, kişiye özel ve sürdürülebilir bir yapıya dönüştürerek teorik sınava eksiksiz şekilde hazırlanmasını hedefler.
+Tüm bu yapı, bireyin öğrenme yolculuğunu kişiselleştiren, sürdürülebilir ve ölçülebilir hale getirerek teorik sürücü sınavına eksiksiz bir şekilde hazırlanmasını amaçlar.
 
 ---
 
