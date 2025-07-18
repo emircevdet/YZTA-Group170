@@ -137,3 +137,10 @@ Ekip üyeleri ile haftada 2 kez toplantı yapılarak ilerlemeler kontrol edildi.
 
 ## Sprint Notları
 
+## Daily Scrum
+
+Ekip üyeleri ile haftada 2 kez toplantı yapılarak ilerlemeler kontrol edildi. Her üye kendi görev ilerlemesini her gün Trello üzerinden düzenli olarak güncelledi ve WhatsApp üzerinden düzenli olarak gelişmeler konuşuldu.
+
+
+
+## Proje Görselleri
