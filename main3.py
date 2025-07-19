@@ -8,6 +8,9 @@ import random
 from tkinter import font as tkfont
 import google.generativeai as genai
 import threading
+from dotenv import load_dotenv
+import os
+
 
 class EhliyetGoApp:
     def __init__(self, root):
@@ -35,13 +38,16 @@ class EhliyetGoApp:
         
         # Ana menü
         self.show_main_menu()
-    
+
     def setup_gemini_api(self):
         """Gemini API'sını yapılandırır"""
-        API_KEY = "AIzaSyCPm-sV2KbxaI3qlVTc4XngvCyJfYCM_gs"
+        load_dotenv()  # .env dosyasını oku
+        API_KEY = os.getenv("GEMINI_API_KEY")  # Anahtarı al
+        if not API_KEY:
+            raise ValueError("API key bulunamadı! Lütfen .env dosyasına GEMINI_API_KEY yaz.")
         genai.configure(api_key=API_KEY)
         self.model = genai.GenerativeModel('gemini-1.5-flash')
-    
+
     def setup_styles(self):
         """Tkinter stilleri ayarlar"""
         pass
