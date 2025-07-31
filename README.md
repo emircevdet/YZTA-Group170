@@ -216,3 +216,83 @@ Ekip üyeleri ile haftada 2 kez toplantı yapılarak ilerlemeler kontrol edildi.
 ---
 
 
+# Sprint 3
+
+## Sprint Notları
+
+Sprint 3, projenin son aşaması olup, temel olarak yapay zeka entegrasyonlarının ince ayarları, kullanıcı arayüzünün son rötuşları ve uygulamanın genel test ve dağıtım süreçlerine odaklanmıştır. Bu sprint, DriveMate'in kullanıma hazır hale getirilmesi için kritik adımları içermektedir.
+
+Toplam proje backlog’u 150 puan olarak planlanmıştı. İlk sprint’te hedeflenen ilerleme oranı %40-50 arası belirlendi. Bu doğrultuda Sprint 1’e 66 puanlık iş yükü alındı. Sprint 2'de 42 puanlık iş yükü tamamlandı. Sprint 3'te ise kalan 42 puanlık iş yükünün tamamlanması hedeflendi. Bu noktada bazı iş yükleri beklenenden daha yüksek puanlı olarak güncellendi ve iş yükleri eşdeğer bazı geliştirmelerden vazgeçildi.
+---
+
+## Sprint Hedefleri
+
+- Sınav Geri Sayım Modülü'nün geliştirilmesi ve entegrasyonu.
+- Konular bölümündeki Gemini entegrasyonunun eğitimi ve test edilmesi.
+- Seviye Belirleme Testi bölümü için Gemini'ın daha iyi sorular hazırlaması için eğitimi ve test edilmesi.
+- Daha iyi bir kullanıcı deneyimi için "DriveMate'e sor" butonunun Gemini ile eğitilmesi ve test edilmesi.
+- Kullanıcı arayüzünde son rötuşların yapılması.
+- Uygulamanın kapsamlı son testlerinin yapılması ve hazır hale getirilmesi.
+
+---
+
+## Sprint Backlog (Tahmini Efor Puanları)
+
+| Görev Başlığı                                                                        | Efor |
+|--------------------------------------------------------------------------------------|------|
+| Sınav Geri Sayım Modülü                                                              | 3    |
+| Konular bölümündeki Gemini'ın eğitilmesi ve test edilmesi                            | 10   |
+| Seviye Belirleme Testi bölümü için Gemini'ın daha iyi sorular hazırlaması için eğitilmesi ve test edilmesi | 8    |
+| Daha iyi bir kullanıcı deneyimi için DriveMate'e sor butonun Gemini ile eğitilmesi ve test edilmesi | 8    |
+| UI Son Rötuşlar                                                                      | 3    |
+| Final Test & Deploy                                                                  | 10   |
+| **Toplam Sprint 3 Eforu**                                                            | **42** |
+| **Toplam Proje Backlog'u**                                                           | **150** |
+
+---
+
+## Daily Scrum
+
+Ekip üyeleri ile haftada 1-2 kez toplantı yapılarak ilerlemeler kontrol edildi. Her üye kendi görev ilerlemesini her gün Trello üzerinden düzenli olarak güncelledi ve WhatsApp üzerinden düzenli olarak gelişmeler konuşuldu.
+
+---
+
+## Sprint Board Updates
+
+(Sprint 3 için güncel Trello ekran görüntüsü buraya eklenecek.)
+
+---
+
+## Sprint Review
+
+Sprint 3, DriveMate projesinin son sprint'i olarak başarıyla tamamlanmıştır. Bu sprint'te belirlenen hedefler süreç içerisinde güncellenerek, beklenen kalitede ve zamanında yerine getirilmiştir.
+
+- **Sınav Geri Sayım Modülü:** Geliştirildi ve ana ekrana entegre edildi. Kullanıcıların sınava kalan süreyi net bir şekilde takip etmesi sağlandı.
+- **Gemini Entegrasyonları (Konular, Seviye Belirleme, DriveMate'e Sor):** Tüm Gemini entegrasyonları (konu anlatımı iyileştirmeleri, seviye belirleme testi soru kalitesi artırımı ve "DriveMate'e Sor" butonu) başarıyla eğitildi ve test edildi. Yapay zeka yanıtlarının doğruluğu ve kullanışlılığı önemli ölçüde arttırıldı.
+- **UI Son Rötuşlar:** Kullanıcı arayüzünde yapılan son iyileştirmelerle genel estetik ve kullanılabilirlik artırıldı. Fontlar, renk paletleri ve ikonlar tutarlı hale getirildi.
+- **Final Test & Deploy:** Uygulamanın kapsamlı son testleri (fonksiyonel, performans, güvenlik) tamamlandı. Tespit edilen tüm kritik hatalar giderildi. Uygulama, son kullanıcıya dağıtıma hazır hale getirildi ve başarılı bir şekilde deploy edildi.
+
+---
+
+## Sprint Retrospective
+
+**Neler İyi Gitti?**
+
+- **Net Hedefler ve Odaklanma:** Sprint 3'ün son sprint olması ve hedeflerin net bir şekilde belirlenmesi, ekibin motivasyonunu ve odaklanmasını artırdı.
+- **Yapay Zeka Entegrasyonlarının Başarısı:** Gemini entegrasyonlarının beklenenden daha iyi performans göstermesi ve kullanıcı deneyimine önemli katkı sağlaması büyük bir başarıydı.
+- **Etkili İletişim:** Daily Scrum toplantıları ve WhatsApp üzerinden sürekli iletişim, olası sorunların hızlıca tespit edilip çözülmesine yardımcı oldu.
+- **Kapsamlı Test Süreci:** Final test ve deploy aşamasında uygulanan detaylı testler, uygulamanın yüksek kalitede sunulmasını sağladı.
+
+**Neler Daha İyi Yapılabilirdi?**
+
+- **Dokümantasyon Detayı:** Özellikle yapay zeka eğitim süreçleri ve kullanılan prompt mühendisliği teknikleri hakkında daha detaylı iç dokümantasyon, gelecekteki geliştirmeler için faydalı olabilirdi.
+
+
+
+
+
+---
+
+## Proje Görselleri
+
+(Sprint 3'e ait yeni görseller ve son ürünün ekran görüntüleri buraya eklenecektir.)
