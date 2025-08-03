@@ -42,21 +42,22 @@ Ehliyet teorik sınavına hazırlanan bireylerin öğrenme sürecini daha kolay,
 - Gemini destekli konu anlatımı ve soru çözüm açıklamaları  
 - Seviye tespit testi ve akıllı çalışma planı  
 - Gerçek sınav formatında deneme sınavları  
-- Günlük görevler ve geri sayım sistemi  
+- Geri sayım sistemi ve motivasyon mesajları  
 
 ---
 
 ## Kullanıcı Hikayesi
 
-Kullanıcı yolculuğu, uygulamaya kayıt olarak başlar. Kayıt işleminin ardından, ilk kullanımda sunulan yapay zeka destekli seviye belirleme testi sayesinde kullanıcının mevcut bilgi düzeyi analiz edilir.
+Kullanıcı, uygulamaya kayıt olarak başlar. Kayıt işleminin ardından, ilk olarak;  yapay zeka destekli seviye belirleme testi sayesinde kullanıcının mevcut bilgi düzeyi analiz edilir.
 
 Eğitim süreci boyunca trafik, motor ve ilk yardım gibi sınav konuları; yapay zeka tarafından sadeleştirilmiş ve anlaşılır biçimde sunulur. Her konu anlatımının ardından, gerçek sınav formatına uygun çoktan seçmeli testlerle bilgiler pekiştirilir. Dileyen kullanıcılar, doğrudan yapay zeka ile sohbet ekranına geçerek merak ettikleri konuları sorabilir, anında konu anlatımı talep edebilir.
 
-Günlük görevlerle öğrenme süreci düzenli olarak desteklenir ve kullanıcı motivasyonunu artırmak için çeşitli ödül ve hatırlatıcı sistemler entegre edilmiştir. Sınava kalan süreyi gösteren geri sayım takvimi, süreci planlamada önemli bir rehber görevi görür.
+Kullanıcı motivasyonunu artırmak için çeşitli  hatırlatıcı pop-up'lar sisteme entegre edilmiştir. Sınava kalan süreyi gösteren geri sayım takvimi, süreci planlamada önemli bir rehber görevi görür.
 
-Uygulamada yer alan “Sınav Simülasyonu” modu, süreli ve rastgele sorularla gerçek sınav atmosferini önceden yaşatarak; kullanıcıya sınav stresiyle başa çıkma ve zaman yönetimi konusunda pratik kazandırır.
+Uygulamada yer alan yapay zeka desteği sayesinde, süreli ve rastgele sorularla gerçek sınav soruları hazırlanır. Bu sayede, Kullanıcı sınav atmosferini önceden deneyimler; kullanıcıya sınav stresiyle başa çıkma ve zaman yönetimi konusunda pratik kazandırır.
 
-Tüm bu yapı, bireyin öğrenme yolculuğunu kişiselleştiren, sürdürülebilir ve ölçülebilir hale getirerek teorik sürücü sınavına eksiksiz bir şekilde hazırlanmasını amaçlar.
+Uygulama; kullanıcının öğrenme yolculuğunu kişiselleştiren, yapay zeka destekli ve ölçülebilir hale getirerek teorik sürücü sınavına eksiksiz bir şekilde hazırlanmasını amaçlar.
+
 
 ---
 
