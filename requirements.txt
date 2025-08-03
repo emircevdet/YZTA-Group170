@@ -8,3 +8,5 @@ fastapi
 uvicorn
 python-jose
 passlib[bcrypt]
+python-dotenv
+google-generativeai
