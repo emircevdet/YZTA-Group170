@@ -234,12 +234,12 @@ Ekip üyeleri ile haftada 2 kez toplantı yapılarak ilerlemeler kontrol edildi.
 
 Sprint 3, DriveMate projesinin son ve en kritik aşamasını temsil etmekteydi. Bu sprintin temel odak noktaları; yapay zeka entegrasyonlarının ince ayarlarının yapılması, kullanıcı arayüzünün son rötuşlarının tamamlanması ve uygulamanın kapsamlı test ve dağıtım süreçlerinin yürütülmesiydi. Sprint 3'ün tamamlanmasıyla DriveMate, kullanıma hazır hale gelmek için son ve belirleyici adımlarını atmış oldu.
 
-### Sprintte Tamamlanması Gereken Puan
+#### Sprintte Tamamlanması Gereken Puan
 Projenin başlangıcında toplam backlog iş yükü 150 puan olarak belirlenmişti. İlk sprintte %40-50'lik bir ilerleme oranı hedeflenmiş ve bu doğrultuda 66 puanlık iş yükü ele alınmıştı. İkinci sprintte ise 42 puanlık iş yükü başarıyla tamamlanmıştı.
 
 Son sprint olan Sprint 3'te, kalan 42 puanlık iş yükünün tamamlanması hedeflenmişti.
 
-### Tamamlama Mantığı
+#### Tamamlama Mantığı
 Bu süreçte, bazı iş yüklerinin puan değerleri beklenenden daha yüksek olarak güncellendi. Bu durum karşısında, projenin kapsamını korumak adına, eşdeğer bazı geliştirmelerden vazgeçilerek önceliklendirme yapıldı. Tüm bu ayarlamalarla birlikte Sprint 3 başarıyla tamamlandı ve DriveMate'in kullanıma sunulması için gerekli tüm hazırlıklar yapıldı.
 
 .
