@@ -62,14 +62,25 @@ Tüm bu yapı, bireyin öğrenme yolculuğunu kişiselleştiren, sürdürülebil
 
 ## Kullanılan Teknolojiler
 
-| Katman                | Teknoloji / Kütüphane             | Açıklama                                                                 |
-| --------------------- | --------------------------------- | ------------------------------------------------------------------------ |
-| Arayüz (GUI)          | Tkinter                           | Masaüstü arayüz – form ekranları, butonlar ve layout düzenlemeleri      |
-| Veritabanı            | SQLite                            | Kullanıcı verileri ve test kayıtlarının saklandığı yerel veritabanı      |
-| Şifreleme             | hashlib                           | Kullanıcı şifrelerinin güvenli şekilde hash’lenmesi için                 |
-| Kimlik Doğrulama      | JWT (Python'da `jwt` kütüphanesi) | Kullanıcının kimliğini doğrulamak için token bazlı sistem                |
-| API Sunucusu          | FastAPI                           | Backend API’lerinin geliştirilmesinde kullanılan modern Python framework |
-| Veri Formatı          | JSON                              | Kullanıcı kayıtları ve token işlemleri için hafif veri saklama formatı   |
+Elbette, verdiğiniz görseldeki tabloyu README.md dosyasına doğrudan ekleyebileceğiniz Markdown formatında hazırladım. Bu format, GitHub gibi platformlarda otomatik olarak tablo olarak görüntülenecektir.
+
+
+## Kullanılan Teknolojiler
+
+| Katman             | Teknoloji / Kütüphane                                 | Açıklama                                                                                               |
+| :----------------- | :---------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
+| Kullanıcı Arayüzü  | `tkinter`, `ttk`, `messagebox`, `scrolledtext`, `tkfont` | Python'un yerleşik GUI kütüphanesi. Masaüstü arayüz bileşenleri için kullanılır.                       |
+| Veri Katmanı       | `sqlite3`                                             | Hafif, dosya tabanlı veritabanı. Kullanıcı verileri ve uygulama içeriği saklanır.                      |
+| İş Mantığı         | `datetime`, `random`, `json`                          | Tarih/zaman işlemleri, rastgelelik ve veri yönetimi için yardımcı modüller.                           |
+| Güvenlik           | `hashlib`, `dotenv`, `os`                             | Şifreleme, gizli anahtar yönetimi ve sistemle etkileşim için kullanılır.                               |
+| Yapay Zeka         | `google.generativeai`                                 | Google Gemini API entegrasyonu. AI destekli yanıtlar ve öneriler üretir.                               |
+| Çoklu İş Parçacığı | `threading`                                           | Arka planda işlem yürütme. GUI donmadan AI yanıtları alınabilir.                                       |
+| Web Servisleri     | `fastapi`, `pydantic`                                 | RESTful API endpoint'leri ve veri doğrulama. Uygulama dış sistemlerle entegre olabilir. (Not: Mevcut kodda kullanılmamaktadır, ancak gelecekteki entegrasyonlar için belirtilmiştir.) |
+
+
+
+
+Önemli Not: "Web Servisleri" katmanına, mevcut kodunuzda fastapi ve pydantic kullanılmadığına dair bir not ekledim. Eğer bu teknolojileri projenizin gelecekteki bir aşamasında kullanmayı planlıyorsanız bu şekilde bırakabilirsiniz. Ancak, şu anki kodunuz sadece bir masaüstü uygulaması olduğu için bu katman aslında aktif olarak kullanılmıyor. Bu notu eklemek, projenizin mevcut durumu hakkında daha şeffaf bir bilgi sağlayacaktır. İsterseniz bu satırı tamamen kaldırabilirsiniz.
 
 ---
 
