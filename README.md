@@ -259,7 +259,6 @@ Toplam proje backlog’u 150 puan olarak planlanmıştı. İlk sprint’te hedef
 | UI Son Rötuşlar                                                                      | 3    |
 | Final Test & Deploy                                                                  | 10   |
 | **Toplam Sprint 3 Eforu**                                                            | **42** |
-| **Toplam Proje Backlog'u**                                                           | **150** |
 
 ---
 
@@ -267,11 +266,24 @@ Toplam proje backlog’u 150 puan olarak planlanmıştı. İlk sprint’te hedef
 
 Ekip üyeleri ile haftada 1-2 kez toplantı yapılarak ilerlemeler kontrol edildi. Her üye kendi görev ilerlemesini her gün Trello üzerinden düzenli olarak güncelledi ve WhatsApp üzerinden düzenli olarak gelişmeler konuşuldu.
 
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/DailyScrum_Sprint-3.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/DailyScrum_Sprint-3-2.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/DailyScrum_Sprint-3-3.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/DailyScrum_Sprint-3-4.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/DailyScrum_Sprint-3-5.png" width="300"/>
+
 ---
 
 ## Sprint Board Updates
 
-(Sprint 3 için güncel Trello ekran görüntüsü buraya eklenecek.)
+https://trello.com/b/Lzt9ovYD/bootcamp-ai-170-drivemate
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Trello_ss_3.Sprint.png" width="500"/>
+
 
 ---
 
@@ -307,4 +319,27 @@ Sprint 3, DriveMate projesinin son sprint'i olarak başarıyla tamamlanmıştır
 
 ## Proje Görselleri
 
-(Sprint 3'e ait yeni görseller ve son ürünün ekran görüntüleri buraya eklenecektir.)
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-1.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-2.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-3.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-4.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-5.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-6.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-7.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-8.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-9.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-10.png" width="300"/>
+
+<img src="https://github.com/emircevdet/YZTA-Group170/blob/main/Final-11.png" width="300"/>
+
+
+
