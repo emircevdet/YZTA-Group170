@@ -10,8 +10,7 @@ import google.generativeai as genai
 import threading
 from dotenv import load_dotenv
 import os
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+
 
 
 class DriveMate:
@@ -45,25 +44,14 @@ class DriveMate:
         if not auto_login_success:
             self.show_main_menu()
 
-    # .env dosyasını yükle
-load_dotenv()
-
-# API key'i ayarla
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-
-app = FastAPI()
-
-class PromptRequest(BaseModel):
-    prompt: str
-
-@app.post("/generate")
-def generate_text(request: PromptRequest):
-    try:
-        model = genai.GenerativeModel("gemini-1.5-flash")
-        response = model.generate_content(request.prompt)
-        return {"response": response.text}
-    except Exception as e
-        raise HTTPException(status_code=500, detail=str(e))
+    def setup_gemini_api(self):
+        """Gemini API'sını yapılandırır"""
+        load_dotenv()  # .env dosyasını oku
+        API_KEY = os.getenv("GEMINI_API_KEY")  # Anahtarı al
+        if not API_KEY:
+            raise ValueError("API key bulunamadı! Lütfen .env dosyasına GEMINI_API_KEY yaz.")
+        genai.configure(api_key=API_KEY)
+        self.model = genai.GenerativeModel('gemini-1.5-flash')
 
     def setup_styles(self):
         """Tkinter stilleri ayarlar"""
@@ -2445,3 +2433,4 @@ if __name__ == "__main__":
     app = DriveMate(root)
 
     app.run()
+
